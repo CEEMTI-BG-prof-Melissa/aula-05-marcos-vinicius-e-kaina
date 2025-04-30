@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <title>Layout</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        header {
+            background-color: chartreuse;
+        }
+
+        nav {
+            background-color: brown;
+        }
+        main {
+            background-color: orange;
+        }
+
+        section {
+            background-color: aqua;
+        }
+
+        .article1 {
+            background-color: red;
+        }
+
+        .article2 {
+            background-color: purple;
+        }
+
+        .aside1 {
+            background-color: pink;
+        }
+
+        .aside2 {
+            background-color: blue;
+        }
+
+        footer {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Header</h1>
+        <nav>Nav <a href="#">OI</a></nav>
+    </header>
+
+    <main>
+        <section>
+            Section
+            <article class="article1">
+                <p>Article</p>
+            </article>
+            <article class="article2">
+                <p>Article</p>
+                <aside class="aside1">Aside</aside>
+            </article>
+        </section>
+        <aside class="aside2">Aside</aside>
+    </main>
+
+    <footer>Marcos & Kainã</footer>
+</body>
+
+</html>
